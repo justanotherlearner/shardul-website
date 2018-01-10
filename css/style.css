@@ -136,7 +136,7 @@ input[type="submit"],a,.agileinfo_social_icons li{
 }
 .w3_navigation_pos h1 a span:before{
 	left: 3%;
-	background: url(../images/logoss.jpg) no-repeat 0px 0px;
+	background: url(../images/logoss.png) no-repeat 0px 0px;
 }
 .w3_navigation_pos h1 a span:after{
 	right: 3%;
@@ -1888,7 +1888,7 @@ span.char26 {
 		height: 32px;
 	}
 	.w3_navigation_pos h1 a span:before {
-		background: url(../images/logoss.jpg) no-repeat 0px 0px;
+		background: url(../images/logoss.png) no-repeat 0px 0px;
 		background-size: 100%;
 	}
 	.w3_navigation_pos h1 a span:after {
@@ -2929,4 +2929,24 @@ span.char26 {
 	.agileits_w3layouts_user input[type="text"], .agileits_w3layouts_user input[type="email"], .agileits_w3layouts_user input[type="password"] {
 		padding: 12px 10px 12px 50px;
 	}
+}
+
+.navbar-collapse .navbar-brand {
+  display: inline-block;
+  float: none;
+  padding: 0;
+  margin: 0 !important;
+  overflow: visible;
+}
+.navbar-collapse .navbar-brand .white-circle {
+  display: block;
+  width: 161px;
+  height: 161px;
+  background-color: white;
+  border-radius: 50%;
+  border: 1px dotted red;
+}
+
+.shifter {
+    margin-top: 50px;
 }
