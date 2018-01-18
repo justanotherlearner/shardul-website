@@ -40,7 +40,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	#navbar {
   position: fixed;
   top: -90px;
-  transition: top 1s;
+  transition: all 500ms ease;
 }
 </style>
     
@@ -74,7 +74,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<div class="w3_navigation_pos"> <h1 style="border-radius: 0 0px 100px 100px;z-index: 5000;background-color:white">
+					<div class="w3_navigation_pos" > 
+                        <h1 style="border-radius: 0 0px 100px 100px;z-index: 5000;background-color:white">
 						<a href="index.html"><img src="images/logo_png.png"></a>
                     </h1></div>
 				</div>
@@ -93,7 +94,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				</div>
 			</nav>	
 		</div>
-	</div>
+    </div>
     
     
 <!--    <div class="w3_navigation"><div style="z-index: 10009;background-color: white;">-->
@@ -119,14 +120,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</div>
     </div></div>-->
     
-    
-    <div class="w3_navigation" id="navbar" >
+    <div style="position: fixed; z-index: 150000; width:100%; top:-90px;">
+    <div class="w3_navigation" id="navbar" style="width:100%;background: linear-gradient(white ,#ffdb4d 70%,white);">
 		<div class="container">
 			<nav class="navbar navbar-default">
 				<div class="navbar-header navbar-left">
 					
 					<div > <h1 style="z-index: 5000;background-color:white;padding:5px;margin:auto">
-						<a href="index.html"><img src="logo_small.png"></a>
+						<a href="index.html"><img src="images/logo_small.png"   ></a>
                     </h1></div>
 				</div>
 				<!-- Collect the nav links, forms, and other content for toggling -->
@@ -144,7 +145,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				</div>
 			</nav>	
 		</div>
-	</div>
+        </div></div>
 	<script>
 // When the user scrolls down 20px from the top of the document, slide down the navbar
 window.onscroll = function() {scrollFunction()};
