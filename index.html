@@ -42,6 +42,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
   top: -90px;
   transition: all 500ms ease;
 }
+        
+  
+@media only screen and (max-width: 700px) {
+    .hiddensmartphone {
+    visibility: hidden;}
+}
+
 </style>
     
     </head>
@@ -119,9 +126,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				</div>
 			</div>
     </div></div>-->
-    
+    <div class="hiddensmartphone">
     <div style="position: fixed; z-index: 150000; width:100%; top:-90px;">
-    <div class="w3_navigation" id="navbar" style="width:100%;background: linear-gradient(white ,#ffdb4d 70%,white);">
+    <div class="w3_navigation hidden-sm" id="navbar" style="width:100%;background: linear-gradient(white ,#ffdb4d 70%,white);">
 		<div class="container">
 			<nav class="navbar navbar-default">
 				<div class="navbar-header navbar-left">
@@ -145,8 +152,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				</div>
 			</nav>	
 		</div>
-        </div></div>
-	<script>
+        </div></div></div>
+    <script>
 // When the user scrolls down 20px from the top of the document, slide down the navbar
 window.onscroll = function() {scrollFunction()};
 
@@ -275,7 +282,7 @@ function scrollFunction() {
     </li>
   </ol>
 </div>
-<p class="ism-badge" id="my-slider-ism-badge"><a class="ism-link" href="http://imageslidermaker.com" rel="nofollow">generated with ISM</a></p>
+
 
 <!--	<div data-vide-bg="video/nursery">
 		<div class="center-container">
@@ -293,8 +300,8 @@ function scrollFunction() {
 			</div>
 		</div>
 	</div> -->
-<!-- bootstrap-pop-up -->
-	<div class="modal video-modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModal">
+<!-- bootstrap-pop-up
+        <div class="modal video-modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModal">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
 				<div class="modal-header">
@@ -325,7 +332,47 @@ function scrollFunction() {
 			</div>
 		</div>
 	</div>
-<!-- //bootstrap-pop-up -->
+ //bootstrap-pop-up -->
+        <!-- stats -->
+	<div class="stats">
+		<div class="container">
+			<div class="col-md-3 w3layouts_stats_grid">
+				<i class="fa fa-male w3_agile_i" aria-hidden="true"></i>
+				<p class="counter">2314+</p>
+				<h4>Students</h4>
+				<div class="agile_stats_grid w3ls_stats_grid">
+					<i></i>
+				</div>
+			</div>
+			<div class="col-md-3 w3layouts_stats_grid">
+				<i class="fa fa-flask w3_agile_i1" aria-hidden="true"></i>
+				<p class="counter">1344+</p>
+				<h4>Labs</h4>
+				<div class="agile_stats_grid w3ls_stats_grid1">
+					<i></i>
+				</div>
+			</div>
+			<div class="col-md-3 w3layouts_stats_grid">
+				<i class="fa fa-cloud w3_agile_i2" aria-hidden="true"></i>
+				<p class="counter">4563+</p>
+				<h4>Classes</h4>
+				<div class="agile_stats_grid w3ls_stats_grid2">
+					<i></i>
+				</div>
+			</div>
+			<div class="col-md-3 w3layouts_stats_grid">
+				<i class="fa fa-graduation-cap w3_agile_i3" aria-hidden="true"></i>
+				<p class="counter">1257+</p>
+				<h4>Team</h4>
+				<div class="agile_stats_grid w3ls_stats_grid3">
+					<i></i>
+				</div>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+<!-- //stats -->
+
 <!-- banner-bottom -->
 	<div id="about" class="banner-bottom">
 		<div class="container">
@@ -593,45 +640,6 @@ function scrollFunction() {
 		</div>
 	</div>
 <!-- //team -->
-<!-- stats -->
-	<div class="stats">
-		<div class="container">
-			<div class="col-md-3 w3layouts_stats_grid">
-				<i class="fa fa-male w3_agile_i" aria-hidden="true"></i>
-				<p class="counter">2314+</p>
-				<h4>Students</h4>
-				<div class="agile_stats_grid w3ls_stats_grid">
-					<i></i>
-				</div>
-			</div>
-			<div class="col-md-3 w3layouts_stats_grid">
-				<i class="fa fa-flask w3_agile_i1" aria-hidden="true"></i>
-				<p class="counter">1344+</p>
-				<h4>Labs</h4>
-				<div class="agile_stats_grid w3ls_stats_grid1">
-					<i></i>
-				</div>
-			</div>
-			<div class="col-md-3 w3layouts_stats_grid">
-				<i class="fa fa-cloud w3_agile_i2" aria-hidden="true"></i>
-				<p class="counter">4563+</p>
-				<h4>Classes</h4>
-				<div class="agile_stats_grid w3ls_stats_grid2">
-					<i></i>
-				</div>
-			</div>
-			<div class="col-md-3 w3layouts_stats_grid">
-				<i class="fa fa-graduation-cap w3_agile_i3" aria-hidden="true"></i>
-				<p class="counter">1257+</p>
-				<h4>Team</h4>
-				<div class="agile_stats_grid w3ls_stats_grid3">
-					<i></i>
-				</div>
-			</div>
-			<div class="clearfix"> </div>
-		</div>
-	</div>
-<!-- //stats -->
 <!-- events -->
 	<div id="events" class="events">
 		<div class="container">
